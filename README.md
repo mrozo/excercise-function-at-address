@@ -4,7 +4,14 @@ Search map file for a function name specified by address.
 
 ## Usage
 
-Use `addr2func -h` for help
+```
+add2func --address=<address> --map=<map file>
+add2func --help
+Arguments:
+--address=<address> - address of to be searched for
+--map=<map file> - path to the map file
+--help - display this help
+```
 
 ## Build
 
